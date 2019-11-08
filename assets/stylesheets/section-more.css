@@ -1,0 +1,50 @@
+.background--more {
+    background-color: #f5f5f5;
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
+.more_headerContainer {
+    grid-column: 1 / 13;
+    justify-self: start;
+    margin-top: 80px;
+}
+
+.more_thumbnailContainer--left {
+    grid-column: 1 / 7;
+    justify-self: start;
+}
+
+.more_thumbnailContainer--right {
+    grid-column: 7 / 13;
+    justify-self: start;
+}
+
+.more_thumbnailImage {
+    display: block;
+    width: 17%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.more_thumbnailContainer--left p, .more_thumbnailContainer--right p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .more_thumbnailContainer--left, .more_thumbnailContainer--right  {
+        grid-column: 1 / 13;
+    }
+
+    .background--more {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .more_thumbnailImage {
+        width: 25%;
+    }
+}

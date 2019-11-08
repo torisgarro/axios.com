@@ -1,0 +1,16 @@
+.fixed {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+}
+.subscribe_inputContainer {
+    grid-column: 1 / 13;
+    justify-self: start;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.background--subscribe {
+    background-color: #3b6be3;
+}

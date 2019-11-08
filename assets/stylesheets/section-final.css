@@ -1,0 +1,16 @@
+.final_headerContainer {
+    grid-column: 1 / 13;
+    justify-self: start;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.background--final {
+    background-color: #3b6be3;
+}
+
+@media screen and (max-width: 1024px) {
+    .final_headerContainer {
+        margin-top: 80px;
+    }
+}
